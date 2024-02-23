@@ -3,3 +3,44 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1, nav, figcaption {
+  text-align: center;
+}
+
+nav > a {
+  background-color: lightgray;
+  padding: 0px 10px 0px 10px;
+}
+
+img {
+  margin: auto;
+  display: block;
+}
+
+/* Tried out flexbox with it as well
+#featured-property {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+*/
+figcaption {
+  font-size: 17px;
+}
+
+#featured-property > p {
+  margin: auto;
+  display: block;
+  width: 800px;
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 18px;
+}
+
+#details > div {
+  float: left;
+  text-align: center;
+  background-color: red;
+  width: 25%;
+}
